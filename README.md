@@ -17,9 +17,9 @@ The dataset used for this analysis is the USvideos.csv file, which contains info
 # Analysis
 The analysis includes the following steps:
 
-Data Cleaning: 
-# The dataset is cleaned by removing duplicates and unnecessary columns.
-Data Transformation:
+# Data Cleaning: 
+The dataset is cleaned by removing duplicates and unnecessary columns.
+**Data Transformation:**
 The publish_time column is converted to datetime format, and new columns are created for publish_month, publish_day, and publish_hour.
 Category Mapping:
 The category_id column is mapped to category names.
