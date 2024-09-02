@@ -17,38 +17,27 @@ The dataset used for this analysis is the USvideos.csv file, which contains info
 # Analysis
 The analysis includes the following steps:
 
-# Data Cleaning: 
-The dataset is cleaned by removing duplicates and unnecessary columns.
-**Data Transformation:**
-The publish_time column is converted to datetime format, and new columns are created for publish_month, publish_day, and publish_hour.
-Category Mapping:
-The category_id column is mapped to category names.
-Yearly Analysis:
-The number of videos published per year is calculated, and the total views per year are summed.
+**Data Cleaning:** The dataset is cleaned by removing duplicates and unnecessary columns.
+**Data Transformation:** The publish_time column is converted to datetime format, and new columns are created for publish_month, publish_day, and publish_hour.
+**Category Mapping:** The category_id column is mapped to category names.
+**Yearly Analysis:** The number of videos published per year is calculated, and the total views per year are summed.
 
 # Visualizations
 The following visualizations are created to illustrate the findings:
 
-Total Publish Video Per Year:
-A bar chart showing the number of videos published per year.
+**Total Publish Video Per Year:** A bar chart showing the number of videos published per year.
 
-Total Views Per Year: 
-A bar chart showing the total views per year.
+**Total Views Per Year:** A bar chart showing the total views per year.
 
-Top 5 Categories:
-A bar chart showing the top 5 categories by total views.
+**Top 5 Categories:** A bar chart showing the top 5 categories by total views.
 
-Video Count by Category:
-A count plot showing the number of videos in each category.
+**Video Count by Category:** A count plot showing the number of videos in each category.
 
-Number of Videos Published per Hour:
-A bar plot showing the number of videos published per hour.
+**Number of Videos Published per Hour:** A bar plot showing the number of videos published per hour.
 
-Videos Published Over Time:
-A line plot showing the number of videos published over time.
+**Videos Published Over Time:** A line plot showing the number of videos published over time.
 
-Views vs Likes:
-A scatter plot showing the relationship between views and likes.
+**Views vs Likes:** A scatter plot showing the relationship between views and likes.
 
 Comments Disabled, Ratings Disabled, and Video Error or Removed: 
 Count plots showing the number of videos with comments disabled, ratings disabled, and video error or removed.
@@ -59,4 +48,4 @@ The correlation between views and likes is calculated using the corr function.
 # Conclusion
 This analysis provides insights into YouTube video trends in the United States. The visualizations illustrate the findings, and the correlation analysis shows the relationship between views and likes.
 
-# Linkedin Link: 
+**Linkedin Link:** https://www.linkedin.com/posts/santosh-patel-375140269_internship-mainflow-task4-activity-7236363147308101633-5wNV?utm_source=share&utm_medium=member_desktop
